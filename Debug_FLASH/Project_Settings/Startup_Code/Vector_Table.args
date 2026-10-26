@@ -1,0 +1,25 @@
+-c
+-I../RTD/include
+-I"C:/MOONRIDER/GITHUB/MCU_DEMO_OPEN_LOOP/board"
+-I"C:/MOONRIDER/GITHUB/MCU_DEMO_OPEN_LOOP/TPPSDK_GD3000_Driver"
+-I"C:/MOONRIDER/GITHUB/MCU_DEMO_OPEN_LOOP/TPPSDK_GD3000_Driver/aml"
+-I"C:/MOONRIDER/GITHUB/MCU_DEMO_OPEN_LOOP/TPPSDK_GD3000_Driver/aml/spi_aml"
+-I"C:/MOONRIDER/GITHUB/MCU_DEMO_OPEN_LOOP/TPPSDK_GD3000_Driver/aml/wait_aml"
+-I"C:/MOONRIDER/GITHUB/MCU_DEMO_OPEN_LOOP/TPPSDK_GD3000_Driver/tpp"
+-I"C:/MOONRIDER/GITHUB/MCU_DEMO_OPEN_LOOP/src/application"
+-I"C:/MOONRIDER/GITHUB/MCU_DEMO_OPEN_LOOP/src/eal"
+-I"C:/MOONRIDER/GITHUB/MCU_DEMO_OPEN_LOOP/src/eal/emios_eal"
+-I"C:/MOONRIDER/GITHUB/MCU_DEMO_OPEN_LOOP/src/service"
+-I"C:/MOONRIDER/GITHUB/MCU_DEMO_OPEN_LOOP/src/service/emios"
+-I"C:/MOONRIDER/GITHUB/MCU_DEMO_OPEN_LOOP/src/service/lcu"
+-I"C:/MOONRIDER/GITHUB/MCU_DEMO_OPEN_LOOP/src/init"
+-x assembler-with-cpp
+-ggdb3
+-mcpu=cortex-m7
+-mthumb
+-mlittle-endian
+-mfloat-abi=hard
+-mfpu=fpv5-sp-d16
+-specs=nano.specs
+-specs=nosys.specs
+--sysroot="C:/NXP/S32DS.3.6.5/S32DS/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/arm-none-eabi/lib"
